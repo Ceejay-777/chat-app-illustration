@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
