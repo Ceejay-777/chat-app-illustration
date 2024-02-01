@@ -17,7 +17,7 @@ export default {
       },
       borderRadius: {
         mobile: "0% 0% 100% 0% / 0% 0% 35% 0% ",
-        desktop: "0% 0% 45% 40% / 0% 0% 25% 14% ",
+        desktop: "0% 0% 60% 40% / 0% 0% 35% 16%  ",
       },
       screens: {
         md: "1060px",
