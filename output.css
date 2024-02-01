@@ -569,12 +569,12 @@ video {
   margin-bottom: 0.125rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-3 {
@@ -589,6 +589,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -599,30 +603,6 @@ video {
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .flex {
@@ -653,12 +633,12 @@ video {
   height: 2rem;
 }
 
-.h-\[560px\] {
-  height: 560px;
-}
-
 .h-\[80vh\] {
   height: 80vh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-1\/2 {
@@ -706,12 +686,16 @@ video {
   width: fit-content;
 }
 
-.max-w-\[55\%\] {
-  max-width: 55%;
+.min-w-\[320px\] {
+  min-width: 320px;
 }
 
 .max-w-\[340px\] {
   max-width: 340px;
+}
+
+.max-w-\[55\%\] {
+  max-width: 55%;
 }
 
 .rotate-180 {
@@ -729,6 +713,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-2 {
@@ -915,16 +903,12 @@ video {
   line-height: 1rem;
 }
 
-.font-\[600\] {
-  font-weight: 600;
+.font-\[500\] {
+  font-weight: 500;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-\[500\] {
-  font-weight: 500;
 }
 
 .leading-loose {
@@ -985,41 +969,29 @@ video {
   font-family: "Rubik", sans-serif;
 }
 
-@media (min-width: 768px) {
-  .md\:ml-0 {
-    margin-left: 0px;
-  }
-
+@media (min-width: 1060px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:w-full {
     width: 100%;
   }
 
-  .md\:max-w-\[200px\] {
-    max-width: 200px;
-  }
-
-  .md\:max-w-\[600px\] {
-    max-width: 600px;
+  .md\:max-w-\[420px\] {
+    max-width: 420px;
   }
 
   .md\:max-w-\[500px\] {
     max-width: 500px;
   }
 
-  .md\:max-w-\[400px\] {
-    max-width: 400px;
-  }
-
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
   }
 
   .md\:rounded-desktop {

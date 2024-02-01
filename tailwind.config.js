@@ -19,6 +19,9 @@ export default {
         mobile: "0% 0% 100% 0% / 0% 0% 35% 0% ",
         desktop: "0% 0% 45% 40% / 0% 0% 25% 14% ",
       },
+      screens: {
+        md: "1060px",
+      },
     },
   },
   plugins: [],
